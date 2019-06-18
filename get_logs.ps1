@@ -2,7 +2,7 @@
 #Parameter 1: computer name, default current computer
 #Parameter 2: how many days to get the logs for from today, default 7
 #Makes a directory called logs under your user directory containing folders with the workstation names and the log .csv files
-param([string]$computername,$days)
+param([string]$computername,[int]$days)
 write-host $computername
 if (-not $computername){
 $computername = $env:computername 
