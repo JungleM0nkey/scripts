@@ -10,3 +10,5 @@ Collection of scripts and useful tools I have created to help with a problem or 
 
 5. uptime.ps1 will show the uptime of a windows sytem, tests connection via icmp before attempting to run the check. 
    Usage: uptime.ps1 <computername>
+
+6. remove_dell_support_assist.ps1 will remove Dell Support Assist from the local computer. The uninstall is done siltenly.
